@@ -307,9 +307,8 @@
     background: linear-gradient(to right, #161616, #000);
     font-family: 'Muli', sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
+    justify-content: center; 
+    height: 50vh;
 
 }
 
@@ -386,13 +385,24 @@
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 620px) {
     .container {
         width: 100vw;
     }
 
-    .panel:nth-of-type(4), 
+    /* .panel:nth-of-type(4), 
     .panel:nth-of-type(5) {
         display: none;
+    } */
+
+    .panel h3{
+        bottom: 70%;
+        left: 25%;
+        font-size: 35px;
+    }
+
+    .panel p {
+        font-size: 14px;
+        bottom: 100px;
     }
 }
