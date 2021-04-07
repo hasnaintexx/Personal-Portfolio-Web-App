@@ -9,10 +9,10 @@
     scroll-behavior: smooth;
 }
 
-.body {
+html, body {
     margin: 0;
     padding: 0;
-}
+  }  
 
 .navbar{
     background: #131313;
@@ -193,6 +193,13 @@
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
      } 
+ }
+
+ @media screen and (max-width: 425px) {
+
+
+ }
+     
  }
 
  /* Front Page Video Section */
