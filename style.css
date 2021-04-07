@@ -195,13 +195,6 @@ html, body {
      } 
  }
 
- @media screen and (max-width: 425px) {
-
-
- }
-     
- }
-
  /* Front Page Video Section */
 .front__page {
     background: #000;
@@ -284,14 +277,13 @@ html, body {
     }
 
     .text__container {
-        margin-top: -80px;
+        margin-top: 5%;
         text-align: center;
-        margin-bottom: -50px;
+        /* margin-bottom: -50px; */
     }
 
     .text__container h1 {
         font-size: 2.5rem;
-        margin-top: 2rem;
     }
 
     .text__container h2 {
@@ -307,7 +299,25 @@ html, body {
         align-self: start; 
     }
 }
+@media screen and (max-width: 425px) {
 
+    .main__content {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0;
+        height: 90vh;
+    }
+
+    .text__container {
+        margin-top: 5%;
+    }
+    .text__container h2 {
+        font-size: 3rem;
+    } 
+}
 /* About Section */
 .about__body {
     background: #000;
